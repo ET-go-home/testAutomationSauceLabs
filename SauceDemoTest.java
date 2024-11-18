@@ -157,7 +157,7 @@ public class SauceDemoTest {
 			current.cd.findElement(By.id("logout_sidebar_link")).click();
 			
 		} catch(Exception e) {
-			test4.fail("test execution failed because " + e.getMessage());
+			test4.fail("test execution failed because " + e.getMessage());//comment1
 		}
 		
 		
